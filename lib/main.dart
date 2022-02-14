@@ -10,6 +10,12 @@ void main() {
         appBar: AppBar(
           title: Text('I AM Rich'),
           backgroundColor: Colors.blueGrey[900],
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.only(
+              bottomLeft: Radius.circular(30),
+              bottomRight: Radius.circular(30),
+            )
+          )
         ),
         backgroundColor: Colors.blueGrey,
         body: Center(
