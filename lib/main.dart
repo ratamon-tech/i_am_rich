@@ -15,7 +15,8 @@ void main() {
               bottomLeft: Radius.circular(30),
               bottomRight: Radius.circular(30),
             )
-          )
+          ),
+          elevation: 30,
         ),
         backgroundColor: Colors.blueGrey,
         body: Center(
