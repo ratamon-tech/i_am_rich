@@ -6,7 +6,7 @@ void main() {
     MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('I AM Rich'),
+          title: Text('現場猫'),
           backgroundColor: Colors.blueGrey[900],
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.only(
